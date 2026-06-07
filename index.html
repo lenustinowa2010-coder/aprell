@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APRELL — подпишитесь и заберите скидку</title>
+<meta name="description" content="Кожаные сумки APRELL. Подпишитесь на канал в MAX и получите промокод ASNEW на скидку 7% на первый заказ.">
+
+<!-- ===================== ЯНДЕКС.МЕТРИКА ===================== -->
+<!-- ЗАМЕНИТЕ XXXXXXXX на номер вашего нового счётчика -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(XXXXXXXX, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/XXXXXXXX" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- =================== /ЯНДЕКС.МЕТРИКА ===================== -->
+
+<style>
+  :root{
+    --milk:#F1EEE9;      /* топлёное молоко — фон */
+    --milk-2:#E7E2DA;
+    --ink:#161412;       /* почти чёрный */
+    --bordo:#5E1622;     /* бордовый */
+    --bordo-2:#7A1E2E;
+    --blue:#8FA8BE;      /* небесно-голубой акцент */
+    --muted:#6E665C;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Helvetica Neue",-apple-system,"Segoe UI",Arial,sans-serif;
+    background:var(--milk);
+    color:var(--ink);
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:0 24px}
+
+  /* шапка */
+  header{padding:34px 0 0;text-align:center}
+  .logo{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:30px;letter-spacing:.32em;font-weight:400;
+    padding-left:.32em;
+  }
+
+  /* герой */
+  .hero{padding:56px 0 40px;text-align:center}
+  .badge{
+    display:inline-block;font-size:12px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--bordo);
+    border:1px solid var(--bordo);border-radius:40px;
+    padding:7px 16px;margin-bottom:26px;
+  }
+  h1{
+    font-family:Georgia,serif;font-weight:400;
+    font-size:clamp(30px,7vw,46px);line-height:1.12;
+    letter-spacing:-.01em;margin-bottom:18px;
+  }
+  h1 .accent{color:var(--bordo)}
+  .lead{
+    font-size:clamp(16px,4.4vw,19px);color:var(--muted);
+    max-width:480px;margin:0 auto 34px;
+  }
+
+  /* кнопка */
+  .cta{
+    display:inline-flex;align-items:center;gap:10px;
+    background:var(--ink);color:var(--milk);
+    text-decoration:none;font-size:17px;font-weight:600;
+    padding:18px 38px;border-radius:50px;
+    transition:transform .15s ease,background .2s ease;
+    box-shadow:0 8px 26px rgba(22,20,18,.18);
+  }
+  .cta:hover{transform:translateY(-2px);background:var(--bordo)}
+  .cta:active{transform:translateY(0)}
+  .cta-note{display:block;margin-top:14px;font-size:13px;color:var(--muted)}
+
+  /* видео-витрина (вертикальный Shorts) */
+  .shot{
+    margin:46px auto;border-radius:18px;overflow:hidden;
+    background:#000;
+    width:100%;max-width:340px;aspect-ratio:9/16;
+    box-shadow:0 12px 34px rgba(22,20,18,.16);
+  }
+  .shot iframe{width:100%;height:100%;display:block;border:0}
+
+  /* что внутри */
+  .perks{display:grid;gap:18px;margin:8px 0 12px}
+  @media(min-width:560px){.perks{grid-template-columns:repeat(3,1fr)}}
+  .perk{
+    background:#fff;border:1px solid var(--milk-2);
+    border-radius:14px;padding:22px 20px;
+  }
+  .perk b{display:block;font-family:Georgia,serif;font-size:18px;margin-bottom:6px}
+  .perk span{font-size:14px;color:var(--muted)}
+
+  /* блок-повтор CTA */
+  .repeat{text-align:center;padding:48px 0 8px}
+  .repeat h2{font-family:Georgia,serif;font-weight:400;font-size:clamp(22px,5vw,30px);margin-bottom:10px}
+  .repeat p{color:var(--muted);margin-bottom:28px;font-size:16px}
+
+  footer{
+    text-align:center;padding:46px 0 40px;margin-top:40px;
+    border-top:1px solid var(--milk-2);font-size:13px;color:var(--muted);
+  }
+  footer .logo-sm{font-family:Georgia,serif;letter-spacing:.28em;font-size:15px;color:var(--ink);display:block;margin-bottom:8px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">APRELL</div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <span class="badge">Только для подписчиков MAX</span>
+    <h1>Подпишитесь — и заберите <span class="accent">−7%</span> на первый заказ</h1>
+    <p class="lead">Кожаные сумки APRELL. Подпишитесь на канал в MAX и получите промокод <b>ASNEW</b> на скидку 7% — плюс новинки и закрытые предзаказы первыми.</p>
+
+    <a class="cta" href="https://max.ru/id501820516976_biz" target="_blank" rel="noopener"
+       data-max-cta onclick="reachMaxGoal()">
+       Подписаться в MAX
+    </a>
+    <span class="cta-note">Бесплатно. Отписаться можно в один клик.</span>
+  </section>
+
+  <div class="shot" id="hero-shot">
+    <iframe
+      src="https://www.youtube.com/embed/pw628VKqMrE?rel=0&modestbranding=1&playsinline=1"
+      title="APRELL — кожаная сумка"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      loading="lazy"></iframe>
+  </div>
+
+  <section class="perks">
+    <div class="perk"><b>ASNEW · −7%</b><span>Промокод на первый заказ — сразу после подписки.</span></div>
+    <div class="perk"><b>Раньше всех</b><span>Новые цвета и модели до старта продаж.</span></div>
+    <div class="perk"><b>Без спама</b><span>Только по делу: новинки, скидки, наличие.</span></div>
+  </section>
+
+  <section class="repeat">
+    <h2>Промокод ASNEW ждёт в закреплённом сообщении</h2>
+    <p>Один клик — и −7% ваши.</p>
+    <a class="cta" href="https://max.ru/id501820516976_biz" target="_blank" rel="noopener"
+       data-max-cta onclick="reachMaxGoal()">
+       Подписаться в MAX
+    </a>
+  </section>
+
+</main>
+
+<footer>
+  <span class="logo-sm">APRELL</span>
+  Кожаные сумки ручной работы · aprellshop.ru
+</footer>
+
+<!-- ===================== ЦЕЛЬ МЕТРИКИ ===================== -->
+<!-- Цель типа JavaScript-событие, идентификатор: max_subscribe_click -->
+<script>
+  function reachMaxGoal(){
+    try{ if(typeof ym==="function"){ ym(XXXXXXXX,"reachGoal","max_subscribe_click"); } }catch(e){}
+    // ссылка открывается обычным образом (target=_blank), цель успевает отправиться
+  }
+</script>
+<!-- =================== /ЦЕЛЬ МЕТРИКИ ===================== -->
+
+</body>
+</html>
